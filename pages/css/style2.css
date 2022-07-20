@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header {
+    border-radius: 2rem;
+    background-color: rgb(187, 255, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 150px
+}
+
+header a {
+    font-size: xx-large;
+    border-radius: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.row>* {
+    margin-top: 1%;
+}
+
+.aside {
+    border-radius: 2rem;
+    background-color: rgb(87, 248, 197);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.aside a {
+    border-radius: 2rem;
+    font-size: xx-large;
+    text-decoration: none;
+    color: black;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.caja {
+    border-radius: 2rem;
+    background-color: rgb(111, 0, 255);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 1%;
+}
+
+.media {
+    font-size: xx-large;
+}
+
+.caja1 {
+    border-radius: 2rem;
+    background-color: rgb(255, 77, 0);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.caja2 {
+    border-radius: 2rem;
+    text-align: center;
+    color: rgb(255, 140, 0);
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    padding: 1%;
+}
+
+.img1 img {
+    width: 90%;
+    height: 40%;
+}
+
+.img2 img {
+    width: 70%;
+    height: 50%;
+}
+
+.img3 img {
+    width: 50%;
+    height: 90%;
+}
+
+footer {
+    border-radius: 2rem;
+    background-color: rgb(58, 58, 58);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin-top: 1%;
+}
+
+footer h1 {
+    border-radius: 2rem;
+    font-size: xx-large;
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    header a {
+        font-size: x-large;
+    }
+    .caja2 {
+        display: block;
+    }
+}
